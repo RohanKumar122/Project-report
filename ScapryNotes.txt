@@ -1,0 +1,9 @@
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(html_doc, 'html.parser')
+
+'''
+r = request.get('http://www.gfg.com')
+soap =BeautifulSoup(r.content,'html.parser')
+
+
+'''
