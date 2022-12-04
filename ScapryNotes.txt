@@ -1,9 +1,11 @@
-from bs4 import BeautifulSoup
-soup = BeautifulSoup(html_doc, 'html.parser')
+import requests
+from bs4 import BeautifulSoup as bs
 
-'''
-r = request.get('http://www.gfg.com')
-soap =BeautifulSoup(r.content,'html.parser')
+URL =('xyz')
+
+r =request.get(url)
+
+soup =bs('r.content','html.parser')
 
 
-'''
+data =soup.find_all('div',class_='')
